@@ -43,7 +43,7 @@ backend:
 # Frontend Configuration
 # =====================
 frontend:
-  image: jabili32301/practice-frontend-helm:latest
+  image: jabili32301/frontend:latest
   replicas: 2
   port: 80
   nodePort: 30070

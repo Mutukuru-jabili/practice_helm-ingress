@@ -42,4 +42,4 @@ jobs:
           context: ./Expense_Frontend
           file: ./Expense_Frontend/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/practice-frontend-helm:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/frontend:latest
